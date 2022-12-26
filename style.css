@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 10px #cecece;
+    height: 99vh;
+    border: 1px rgb(241, 158, 4) solid;
+    border-bottom: 10px rgb(241, 158, 4) solid;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(241, 158, 4);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    color: white;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color:rgb(241, 158, 4);
+    border-bottom: 1px rgb(241, 158, 4) solid;
+    border-top: 1px rgb(241, 158, 4) solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 2em;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em; 
+}
+
+
+.secondary_container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: auto;
+    margin-right: 1em;
+    padding-left: 2em;
+}
+
+#img_profile{
+    border-radius: 0;
+    border: 2px solid;
+    width: 15%;
+}
+
+#nom{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+}
+
+#prenom{
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5px;
+    margin: 0;
+    border-bottom: 2px rgb(241, 158, 4) solid;
+}
+
+.contact{
+    list-style: none;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+.educ_title{
+    font-weight: bold;
+    padding-bottom: 0;
+    margin: 0.3em;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.educ_year{
+    display: inline-block;
+    color: rgb(241, 158, 4);
+    margin: 0;
+    padding: 0;
+    margin-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+.educ_school{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
